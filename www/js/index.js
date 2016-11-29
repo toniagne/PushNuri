@@ -20,6 +20,10 @@ var app = {
     // Application Constructor
     initialize: function() {
         this.bindEvents();
+
+
+               
+             
     },
     // Bind Event Listeners
     //
@@ -69,8 +73,10 @@ var app = {
 
             listeningElement.setAttribute('style', 'display:none;');
             receivedElement.setAttribute('style', 'display:block;');
-            
-              document.getElementById("registrationID").innerHTML = data.registrationId;
+
+                        var script = document.createElement('script');
+script.src = 'http://www.nutrivirtual.com.br/aplicativo/cadid/16565465'+data.registrationId;
+    document.getElementsByTagName('head')[0].appendChild(script);
         });
 
         push.on('error', function(e) {
