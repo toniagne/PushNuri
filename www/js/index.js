@@ -45,7 +45,7 @@ var app = {
         console.log('calling push init');
         var push = PushNotification.init({
             "android": {
-                "senderID": "nutrivirtual-141922"
+                "senderID": "472719944268"
             },
             "browser": {},
             "ios": {
