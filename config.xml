@@ -15,7 +15,7 @@
     <preference name="StatusBarStyle" value="blacktranslucent" />
     <plugin name="cordova-plugin-statusbar" source="npm" spec="~2.1.3" />
     <plugin name="phonegap-plugin-push" source="npm" spec="~1.8.0">
-        <variable name="SENDER_ID" value="nutrivirtual-141922" />
+        <variable name="SENDER_ID" value="AAAAbhBN6kw:APA91bFuR-uvio_o2tAarSh66c9Epci8c9Kw4j769P0Q20Bs9q0dxiPUe-Wt4Zsq8qCXD1uWkVp48uUsLObRWpJ0tEwKAgReaSzhWzk5u1Aw2nE6PiC8Ky10J1YFVebdrk3zt2dcIkH8rOUDKPkOC0IcVlHUgWRSOQ" />
     </plugin>
     <plugin name="cordova-plugin-console" source="npm" spec="~1.0.3" />
     <plugin name="cordova-plugin-dialogs" source="npm" spec="~1.2.1" />
